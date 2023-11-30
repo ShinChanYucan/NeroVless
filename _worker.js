@@ -10,6 +10,8 @@ const proxyIPs = ['cdn-all.xn--b6gac.eu.org', 'cdn.xn--b6gac.eu.org', 'cdn-b100.
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
+let singapure = '47.245.100.33'
+
 let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
@@ -29,7 +31,7 @@ export default {
 		// uuid_validator(request);
 		try {
 			userID = env.UUID || userID;
-			proxyIP = env.PROXYIP || proxyIP;
+			proxyIP = env.PROXYIP || singapure;
 			dohURL = env.DNS_RESOLVER_URL || dohURL;
 			let userID_Path = userID;
 			if (userID.includes(',')) {
