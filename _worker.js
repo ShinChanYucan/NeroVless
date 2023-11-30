@@ -726,10 +726,10 @@ function getVLESSConfig(userIDs, hostName) {
 	let output = [];
 	let header = [];
 	const clash_link = `https://subconverter.do.xn--b6gac.eu.org/sub?target=clash&url=https://${hostName}/sub/${userIDArray[0]}?format=clash&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
-	header.push(`\n<p align="center"><img src="https://telegra.ph/file/5c4c096ae174cc6633cac.jpg" alt="图片描述" style="margin-bottom: -50px;">`);
+	header.push(`\n<p align="center"><img src="https://telegra.ph/file/b7a3c6a8e222bcef188c5.jpg" alt="图片描述" style="margin-bottom: -50px;">`);
 	header.push(`\n<b style=" font-size: 15px;" >SHINCHAN SENPAI💖</b>\n`);
 	header.push(`<b style=" font-size: 15px;" >Quotes hari ini:\n Jika kamu hanya bertahan di zona nyaman, maka kamu tak akan pernah tahu banyak hal. Jangan takut mencoba!</b>\n`);
-	header.push(`\n<a href="https://github.com/ShinChanYucan/" target="_blank">ShinChan - https://github.com/ShinChanYucan/NeroVless</a>\n`);
+	header.push(`\n<a href="https://github.com/ShinChanYucan/" target="_blank">ShinChan - https://github.com/ShinChanYucan/</a>\n`);
 	header.push(`\n<iframe src="https://ghbtns.com/github-btn.html?user=USERNAME&repo=REPOSITORY&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>\n\n`.replace(/USERNAME/g, "ShinChanYucan").replace(/REPOSITORY/g, "NeroVless"));
 	header.push(`<a href="//${hostName}/sub/${userIDArray[0]}" target="_blank">VLESS 节点订阅连接</a>\n<a href="clash://install-config?url=${encodeURIComponent(clash_link)}" target="_blank">Clash 节点订阅连接</a>\n<a href="${clash_link}" target="_blank">Clash 节点订阅连接2</a></p>\n`);
 	header.push(``);
