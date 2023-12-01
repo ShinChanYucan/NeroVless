@@ -26,7 +26,7 @@ clash-meta
   sni: ${t}
   client-fingerprint: chrome
   ws-opts:
-    path: "/?ed=2048"
+    path: "/ShinChanINC"
     headers:
       host: ${t}
 ---------------------------------------------------------------
