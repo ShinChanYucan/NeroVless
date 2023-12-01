@@ -729,7 +729,7 @@ function getVLESSConfig(userIDs, hostName) {
 	let header = [];
 	const clash_link = `https://subconverter.do.xn--b6gac.eu.org/sub?target=clash&url=https://${hostName}/sub/${userIDArray[0]}?format=clash&insert=false&emoji=true&list=false&tfo=false&scv=true&fdn=false&sort=false&new_name=true`;
 	header.push(`\n<p align="center"><img src="https://telegra.ph/file/13ef43fa7e1f6ec0081cb.png" alt="图片描述" style="margin-bottom: -50px;">`);
-	header.push(`\n<b style=" font-size: 15px;" >\n\n\n</b>\n`);
+	header.push(`\n<b style=" font-size: 15px;" >\n\n𝗦𝗛𝗜𝗡𝗖𝗛𝗔𝗡 𝗦𝗘𝗡𝗣𝗔𝗜💖</b>\n`);
 	/*header.push(`<b style=" font-size: 15px;" >Quotes hari ini:\n Jika kamu hanya bertahan di zona nyaman, maka kamu tak akan pernah tahu banyak hal. Jangan takut mencoba!</b>\n`);*/
 	header.push(`\n<a href="https://github.com/ShinChanYucan/" target="_blank">🐣 ShinChan - https://github.com/ShinChanYucan/\n🐼 Quotes: Jika kamu hanya bertahan di zona nyaman, maka kamu tak akan pernah tahu banyak hal. Jangan takut mencoba!</a>\n`);
 	header.push(`\n<iframe src="https://ghbtns.com/github-btn.html?user=USERNAME&repo=REPOSITORY&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>\n\n`.replace(/USERNAME/g, "ShinChanYucan").replace(/REPOSITORY/g, "NeroVless"));
