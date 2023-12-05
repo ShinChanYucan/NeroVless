@@ -7,7 +7,7 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
 //const proxyIPs = ['cdn-b100.xn--b6gac.eu.org'];
-const proxyIPs = ['128.199.160.252'];
+const proxyIPs = ['45.135.228.35'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
