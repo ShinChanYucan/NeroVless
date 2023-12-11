@@ -7,13 +7,13 @@ import { connect } from 'cloudflare:sockets';
 let userID = 'd342d11e-d424-4583-b36e-524ab1f0afa4';
 
 //const proxyIPs = ['cdn-b100.xn--b6gac.eu.org'];
-const proxyIPs = ['192.230.103.17'];
+const proxyIPs = ['192.230.103.177'];
 
 let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
 
-//let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
+let dohURL = 'https://sky.rethinkdns.com/1:-Pf_____9_8A_AMAIgE8kMABVDDmKOHTAKg='; // https://cloudflare-dns.com/dns-query or https://dns.google/dns-query
 
-let dohURL = 'https://cloudflare-dns.com/dns-query';
+//let dohURL = 'https://cloudflare-dns.com/dns-query';
 
 // v2board api environment variables (optional) deprecated, please use planetscale.com instead
 
